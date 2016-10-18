@@ -29,6 +29,7 @@
 
 global.gravitydir = 270
 
+image_speed = 0.5;
 </string>
           </argument>
         </arguments>
