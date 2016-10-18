@@ -19,18 +19,21 @@
       <sprite>sprites\spr_l_3</sprite>
       <sprite>sprites\spr_l_4</sprite>
     </sprites>
+    <sprite>sprites\spr_ladder</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_push.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_block</object>
     <object>objects\obj_player</object>
-    <object>objects\obj_box</object>
     <object>objects\obj_finish</object>
     <object>objects\obj_android_controls</object>
-    <object>objects\obj_box_stopped</object>
+    <object>objects\obj_box</object>
     <object>objects\obj_brick</object>
     <object>objects\obj_brick_fall</object>
     <object>objects\obj_spike</object>
@@ -41,13 +44,16 @@
       <object>objects\obj_liv_3</object>
       <object>objects\obj_liv_4</object>
     </objects>
+    <object>objects\obj_cheats</object>
+    <object>objects\obj_ladder</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_liv_1</room>
-    <room>rooms\rm_liv_2</room>
-    <room>rooms\rm_liv_3</room>
-    <room>rooms\rm_liv_4</room>
+    <room>rooms\rm_lev_1</room>
+    <room>rooms\rm_lev_2</room>
+    <room>rooms\rm_lev_3</room>
+    <room>rooms\rm_lev_4</room>
+    <room>rooms\rm_lev_5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

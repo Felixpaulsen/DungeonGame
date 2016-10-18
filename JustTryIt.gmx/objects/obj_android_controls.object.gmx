@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>display_set_gui_size(800, 448)
+            <string>if os_type != os_android
+    instance_destroy();
+
+display_set_gui_size(800, 448)
 size = 80
 mx = 0
 my = 0
