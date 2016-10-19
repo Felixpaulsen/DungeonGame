@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if os_type != os_android
-    instance_destroy();
+            <string>/*if os_type != os_android
+    instance_destroy();*/
 
 display_set_gui_size(800, 448)
 size = 80
@@ -37,6 +37,7 @@ cy = 350
 left = virtual_key_add(cx-size, cy,size,size,ord('A'))
 right = virtual_key_add(cx+size, cy,size,size,ord('D'))
 jump = virtual_key_add(cx+500, cy,size,size,ord('W'))
+
 </string>
           </argument>
         </arguments>
@@ -64,9 +65,15 @@ jump = virtual_key_add(cx+500, cy,size,size,ord('W'))
 draw_set_color(c_white)
 
 draw_set_alpha(.4)
-draw_rectangle(50,350,150,450,0)//left
+/*draw_rectangle(50,350,150,450,0)//left
 draw_rectangle(230,350,330,450,0)//right
-draw_rectangle(650,350,750,450,0)//jump
+draw_rectangle(650,350,750,450,0)//jump  */
+
+
+draw_sprite(spr_left, 0 , 100, 400)//left
+draw_sprite(spr_right, 0 , 280, 400)//right
+draw_sprite(spr_jump, 0 , 700, 400)//up
+
 draw_set_alpha(1)
 </string>
           </argument>

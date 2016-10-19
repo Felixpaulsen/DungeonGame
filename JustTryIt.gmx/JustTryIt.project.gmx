@@ -19,6 +19,14 @@
       <sprite>sprites\spr_l_2</sprite>
       <sprite>sprites\spr_l_3</sprite>
       <sprite>sprites\spr_l_4</sprite>
+      <sprite>sprites\spr_l_5</sprite>
+      <sprite>sprites\spr_l_6</sprite>
+    </sprites>
+    <sprites name="Arrows">
+      <sprite>sprites\spr_jump</sprite>
+      <sprite>sprites\spr_left</sprite>
+      <sprite>sprites\spr_right</sprite>
+      <sprite>sprites\spr_refresh</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -37,15 +45,18 @@
     <object>objects\obj_brick</object>
     <object>objects\obj_brick_fall</object>
     <object>objects\obj_spike</object>
+    <object>objects\obj_ladder</object>
+    <object>objects\obj_cheats</object>
     <object>objects\obj_teleport</object>
-    <objects name="liv">
+    <objects name="buttons">
       <object>objects\obj_liv_1</object>
       <object>objects\obj_liv_2</object>
       <object>objects\obj_liv_3</object>
       <object>objects\obj_liv_4</object>
+      <object>objects\obj_lev_5</object>
+      <object>objects\obj_lev_6</object>
+      <object>objects\obj_refresh</object>
     </objects>
-    <object>objects\obj_cheats</object>
-    <object>objects\obj_ladder</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
@@ -54,6 +65,8 @@
     <room>rooms\rm_lev_3</room>
     <room>rooms\rm_lev_4</room>
     <room>rooms\rm_lev_5</room>
+    <room>rooms\rm_lev_6</room>
+    <room>rooms\rm_test_views</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
