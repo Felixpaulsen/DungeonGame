@@ -12,6 +12,7 @@
     <sprite>sprites\spr_box</sprite>
     <sprite>sprites\spr_finish</sprite>
     <sprite>sprites\spr_brick</sprite>
+    <sprite>sprites\spr_ladder</sprite>
     <sprite>sprites\spr_teleport</sprite>
     <sprites name="liv">
       <sprite>sprites\spr_l_1</sprite>
@@ -19,7 +20,6 @@
       <sprite>sprites\spr_l_3</sprite>
       <sprite>sprites\spr_l_4</sprite>
     </sprites>
-    <sprite>sprites\spr_ladder</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>

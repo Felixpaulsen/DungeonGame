@@ -25,11 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spd = 3
+            <string>spd = 2
 
 global.gravitydir = 270
 
 image_speed = 0.5;
+
+jump = 0
+
+maxjump = 2
 </string>
           </argument>
         </arguments>
@@ -75,7 +79,7 @@ image_speed = 0.5;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>///mov
 
 if (keyboard_check(ord('A')) &amp;&amp; place_free(x-spd,y))
     x -= spd;
@@ -84,10 +88,34 @@ if (keyboard_check(ord('A')) &amp;&amp; place_free(x-spd,y))
 if (keyboard_check(ord('D')) &amp;&amp; place_free(x+spd,y))
     x += spd; 
     
-
-if (keyboard_check(ord('W')) &amp;&amp; !place_free(x,y+1))
+    
+    
+//old jump
+/*if (keyboard_check(ord('W')) &amp;&amp; !place_free(x,y+1)) {
+    
     vspeed = -8;
+    }*/
+    
+    
+//new double jump
+    
+if(place_meeting(x,y+1, obj_block))
+{
+jump = maxjump
+}
+if keyboard_check_pressed(ord('W')) &amp;&amp; (jump &gt; 0){
+jump -= 1
+vspeed = -8
 
+}
+    
+    
+    
+    
+    
+    
+    
+    
 if (keyboard_check(ord('R')))
     room_restart();
 
