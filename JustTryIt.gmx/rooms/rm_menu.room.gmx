@@ -52,10 +52,12 @@
   </views>
   <instances>
     <instance objName="self" x="88" y="64" name="inst_B7EB29E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_liv_1" x="180" y="150" name="inst_6413069C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_liv_2" x="310" y="310" name="inst_D6453A49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_liv_3" x="500" y="150" name="inst_C1D29987" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_liv_4" x="640" y="310" name="inst_06EADDDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_liv_1" x="100" y="90" name="inst_6413069C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_liv_2" x="220" y="90" name="inst_D6453A49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_liv_3" x="340" y="90" name="inst_C1D29987" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_liv_4" x="460" y="90" name="inst_06EADDDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lev_5" x="580" y="90" name="inst_67DF41DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lev_6" x="700" y="90" name="inst_8B224A4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
