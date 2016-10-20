@@ -24,9 +24,6 @@
       <sprite>sprites\spr_l_5</sprite>
       <sprite>sprites\spr_l_6</sprite>
     </sprites>
-<<<<<<< HEAD
-    <sprite>sprites\spr_torch</sprite>
-=======
     <sprites name="Arrows">
       <sprite>sprites\spr_jump</sprite>
       <sprite>sprites\spr_left</sprite>
@@ -34,7 +31,6 @@
       <sprite>sprites\spr_refresh</sprite>
     </sprites>
     <sprite>sprites\spr_new_torch</sprite>
->>>>>>> origin/master
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -49,10 +45,10 @@
     <object>objects\obj_finish</object>
     <object>objects\obj_android_controls</object>
     <object>objects\obj_box</object>
+    <object>objects\obj_ladder</object>
     <object>objects\obj_brick</object>
     <object>objects\obj_brick_fall</object>
     <object>objects\obj_spike</object>
-    <object>objects\obj_ladder</object>
     <object>objects\obj_cheats</object>
     <object>objects\obj_teleport</object>
     <objects name="buttons">
@@ -64,15 +60,10 @@
       <object>objects\obj_lev_6</object>
       <object>objects\obj_refresh</object>
     </objects>
-<<<<<<< HEAD
-    <object>objects\obj_cheats</object>
-    <object>objects\obj_ladder</object>
     <object>objects\obj_lightning</object>
     <object>objects\obj_torch</object>
-=======
     <object>objects\obj_boss</object>
     <object>objects\obj_bullet</object>
->>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
@@ -83,6 +74,7 @@
     <room>rooms\rm_lev_5</room>
     <room>rooms\rm_lev_6</room>
     <room>rooms\rm_test_views</room>
+    <room>rooms\room_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
