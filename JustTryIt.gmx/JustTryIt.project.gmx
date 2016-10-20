@@ -30,6 +30,7 @@
       <sprite>sprites\spr_right</sprite>
       <sprite>sprites\spr_refresh</sprite>
     </sprites>
+    <sprite>sprites\spr_new_torch</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
