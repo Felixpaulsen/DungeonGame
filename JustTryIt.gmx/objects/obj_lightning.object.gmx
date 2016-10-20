@@ -83,9 +83,12 @@ if surface_exists(light)
           <argument>
             <kind>1</kind>
             <string>///Draw surface
-draw_set_blend_mode(bm_subtract);
-draw_surface(light, view_xview, view_yview);
-draw_set_blend_mode(bm_normal);
+if surface_exists(light)
+{
+    draw_set_blend_mode(bm_subtract);
+    draw_surface(light, view_xview, view_yview);
+    draw_set_blend_mode(bm_normal);
+}
 </string>
           </argument>
         </arguments>
