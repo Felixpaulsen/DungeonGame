@@ -13,7 +13,9 @@
     <sprite>sprites\spr_finish</sprite>
     <sprite>sprites\spr_brick</sprite>
     <sprite>sprites\spr_ladder</sprite>
+    <sprite>sprites\spr_boss</sprite>
     <sprite>sprites\spr_teleport</sprite>
+    <sprite>sprites\spr_bullet</sprite>
     <sprites name="liv">
       <sprite>sprites\spr_l_1</sprite>
       <sprite>sprites\spr_l_2</sprite>
@@ -57,6 +59,8 @@
       <object>objects\obj_lev_6</object>
       <object>objects\obj_refresh</object>
     </objects>
+    <object>objects\obj_boss</object>
+    <object>objects\obj_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
