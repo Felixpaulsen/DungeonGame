@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-999</depth>
+  <depth>-9999</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,11 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Initialize variables
-globalvar light;
-light = surface_create(view_wview,view_hview);
-darkness = 225; //255 = dark. 0 = light
-color = make_colour_hsv(160,0,darkness);
+            <string>alpha = 1;
+vspeed = -2.5;
 </string>
           </argument>
         </arguments>
@@ -52,13 +49,9 @@ color = make_colour_hsv(160,0,darkness);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Draw rectangle on surface
-if surface_exists(light)
+            <string>if alpha &lt;= 0
 {
-    surface_set_target(light);
-    draw_set_color(color);
-    draw_rectangle(0,0,view_wview,view_hview,false);
-    surface_reset_target();
+    instance_destroy();
 }
 </string>
           </argument>
@@ -82,13 +75,12 @@ if surface_exists(light)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Draw surface
-if surface_exists(light)
-{
-    draw_set_blend_mode(bm_subtract);
-    draw_surface(light, view_xview, view_yview);
-    draw_set_blend_mode(bm_normal);
-}
+            <string>draw_set_color(c_yellow);
+draw_set_halign(fa_center);
+draw_set_alpha(alpha);
+draw_text(x,y,"Coins +3");
+alpha -= 0.025/2;
+draw_set_alpha(1);
 </string>
           </argument>
         </arguments>

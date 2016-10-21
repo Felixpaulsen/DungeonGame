@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_block</sprite>
+    <sprite>sprites\spr_hidden_block</sprite>
     <sprite>sprites\spr_spike</sprite>
     <sprite>sprites\spr_box</sprite>
     <sprite>sprites\spr_finish</sprite>
@@ -31,6 +32,8 @@
       <sprite>sprites\spr_refresh</sprite>
     </sprites>
     <sprite>sprites\spr_new_torch</sprite>
+    <sprite>sprites\spr_treasure</sprite>
+    <sprite>sprites\spr_coin</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -64,6 +67,10 @@
     <object>objects\obj_torch</object>
     <object>objects\obj_boss</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_hidden_block</object>
+    <object>objects\obj_treasure</object>
+    <object>objects\obj_coin</object>
+    <object>objects\obj_coin_draw</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
