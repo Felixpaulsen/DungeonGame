@@ -28,7 +28,7 @@
             <string>///Initialize variables
 globalvar light;
 light = surface_create(view_wview,view_hview);
-darkness = 225; //255 = dark. 0 = light
+darkness = 210; //255 = dark. 0 = light
 color = make_colour_hsv(160,0,darkness);
 </string>
           </argument>
