@@ -34,6 +34,7 @@
     <sprite>sprites\spr_new_torch</sprite>
     <sprite>sprites\spr_treasure</sprite>
     <sprite>sprites\spr_coin</sprite>
+    <sprite>sprites\spr_light</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -71,6 +72,8 @@
     <object>objects\obj_treasure</object>
     <object>objects\obj_coin</object>
     <object>objects\obj_coin_draw</object>
+    <object>objects\obj_new_lightning</object>
+    <object>objects\obj_light</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
