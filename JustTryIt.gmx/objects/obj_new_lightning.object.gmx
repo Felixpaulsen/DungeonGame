@@ -68,6 +68,8 @@ draw_set_blend_mode_ext(bm_dest_color, bm_inv_src_alpha) //test
 draw_surface_ext(surf,0,0,1/surfscale,1/surfscale,0,c_white,0.7);
 
 draw_set_blend_mode(bm_normal);
+
+
 </string>
           </argument>
         </arguments>

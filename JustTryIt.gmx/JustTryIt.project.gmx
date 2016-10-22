@@ -43,6 +43,9 @@
   <scripts name="scripts">
     <script>scripts\scr_push.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_coin</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_block</object>
     <object>objects\obj_player</object>
