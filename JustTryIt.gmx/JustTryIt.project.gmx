@@ -81,7 +81,6 @@
     <room>rooms\rm_lev_5</room>
     <room>rooms\rm_lev_6</room>
     <room>rooms\rm_test_views</room>
-    <room>rooms\room_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
