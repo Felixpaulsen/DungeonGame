@@ -74,6 +74,7 @@
     <object>objects\obj_coin_draw</object>
     <object>objects\obj_new_lightning</object>
     <object>objects\obj_light</object>
+    <object>objects\obj_spawn_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
@@ -83,7 +84,7 @@
     <room>rooms\rm_lev_4</room>
     <room>rooms\rm_lev_5</room>
     <room>rooms\rm_lev_6</room>
-    <room>rooms\rm_test_views</room>
+    <room>rooms\rm_lev_boss</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
