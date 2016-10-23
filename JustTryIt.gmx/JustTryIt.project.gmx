@@ -85,6 +85,7 @@
     <object>objects\obj_spawn_bullet</object>
     <object>objects\obj_blood</object>
     <object>objects\obj_key</object>
+    <object>objects\obj_draw_score</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
