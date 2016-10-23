@@ -4,7 +4,7 @@
   <width>800</width>
   <height>448</height>
   <vsnap>10</vsnap>
-  <hsnap>20</hsnap>
+  <hsnap>10</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -499,7 +499,7 @@ instance_create(x,y,obj_new_lightning);</code>
     <instance objName="obj_block" x="740" y="150" name="inst_8DDCE1C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="720" y="170" name="inst_D0B43679" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_brick_fall" x="180" y="10" name="inst_06D2F109" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_brick_fall" x="370" y="10" name="inst_582C5A91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_brick_fall" x="380" y="10" name="inst_582C5A91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_brick_fall" x="580" y="10" name="inst_1C09A401" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="580" y="320" name="inst_BB28C11E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="220" y="150" name="inst_F93FDF14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -542,6 +542,7 @@ instance_create(x,y,obj_new_lightning);</code>
     <instance objName="obj_hidden_block" x="760" y="130" name="inst_ABB32B29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hidden_block" x="740" y="110" name="inst_63CBF46A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hidden_block" x="740" y="130" name="inst_93C50DA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawnpoint" x="50" y="310" name="inst_70CC8314" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

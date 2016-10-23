@@ -79,7 +79,7 @@ vspeed = -2.5;
 draw_set_color(c_yellow);
 draw_set_halign(fa_center);
 draw_set_alpha(alpha);
-draw_text(x,y,"Coins +3");
+draw_text(x,y,"Coins +4");
 alpha -= 0.025/2;
 draw_set_alpha(1);
 </string>

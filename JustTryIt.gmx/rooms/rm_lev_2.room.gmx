@@ -745,6 +745,7 @@ instance_create(x,y,obj_new_lightning);</code>
     <instance objName="obj_torch" x="710" y="180" name="inst_FE76BC53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="230" y="290" name="inst_BEE6C1D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="430" y="100" name="inst_FEABC6AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawnpoint" x="750" y="290" name="inst_3E340DA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
