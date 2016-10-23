@@ -449,6 +449,12 @@ else
           <argument>
             <kind>1</kind>
             <string>draw_self()
+
+xt= view_xview[0] + 700;
+yt= view_yview[0];
+draw_set_font(fnt_coin);
+draw_set_color(c_white);
+draw_text(xt, yt, (score));
 </string>
           </argument>
         </arguments>
