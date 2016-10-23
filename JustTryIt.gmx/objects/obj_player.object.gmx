@@ -431,7 +431,7 @@ else
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -448,13 +448,17 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_self()
+            <string>draw_set_alpha(1)
 
-xt= view_xview[0] + 700;
-yt= view_yview[0];
+draw_self()
+
+xt= view_xview[0] + 750;
+yt= view_yview[0] + 20;
 draw_set_font(fnt_coin);
 draw_set_color(c_white);
 draw_text(xt, yt, (score));
+
+draw_set_alpha(1)
 </string>
           </argument>
         </arguments>
