@@ -506,11 +506,18 @@ else
 
 draw_self()
 
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
 xt= view_xview[0] + 750;
 yt= view_yview[0] + 20;
 draw_set_font(fnt_coin);
 draw_set_color(c_white);
 draw_text(xt, yt, (score));
+draw_set_color(c_yellow);
+draw_set_halign(fa_right);
+draw_set_valign(fa_bottom);
+draw_text(room_width,room_height,string(fps));
 
 
 </string>
