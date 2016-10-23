@@ -71,7 +71,6 @@
       <object>objects\obj_lev_6</object>
       <object>objects\obj_refresh</object>
     </objects>
-    <object>objects\obj_lightning</object>
     <object>objects\obj_torch</object>
     <object>objects\obj_boss</object>
     <object>objects\obj_bullet</object>
