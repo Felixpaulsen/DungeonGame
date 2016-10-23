@@ -39,6 +39,8 @@
     <sprite>sprites\spr_coin</sprite>
     <sprite>sprites\spr_light</sprite>
     <sprite>sprites\spr_blood</sprite>
+    <sprite>sprites\spr_door</sprite>
+    <sprite>sprites\spr_key</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -83,6 +85,7 @@
     <object>objects\obj_spawn_bullet</object>
     <object>objects\obj_spawnpoint</object>
     <object>objects\obj_blood</object>
+    <object>objects\obj_key</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
