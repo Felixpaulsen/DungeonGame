@@ -83,7 +83,6 @@
     <object>objects\obj_new_lightning</object>
     <object>objects\obj_light</object>
     <object>objects\obj_spawn_bullet</object>
-    <object>objects\obj_spawnpoint</object>
     <object>objects\obj_blood</object>
     <object>objects\obj_key</object>
   </objects>

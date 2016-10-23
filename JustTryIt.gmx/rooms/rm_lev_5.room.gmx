@@ -664,7 +664,6 @@ instance_create(x,y,obj_new_lightning);</code>
     <instance objName="obj_hidden_block" x="400" y="360" name="inst_C64C266A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hidden_block" x="400" y="380" name="inst_778794CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treasure" x="300" y="370" name="inst_608EFEBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawnpoint" x="110" y="200" name="inst_D5482643" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_key" x="200" y="320" name="inst_70E2BFBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hidden_block" x="200" y="320" name="inst_78FD482F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hidden_block" x="200" y="300" name="inst_80A66AC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

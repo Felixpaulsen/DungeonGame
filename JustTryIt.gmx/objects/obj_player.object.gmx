@@ -372,8 +372,8 @@ instance_create(x,y, obj_blood)
 instance_create(x,y, obj_blood)
 
 
-x=obj_spawnpoint.x
-y=obj_spawnpoint.y
+x = xstart;
+y = ystart;
 </string>
           </argument>
         </arguments>
@@ -425,8 +425,8 @@ instance_create(x,y, obj_blood)
 instance_create(x,y, obj_blood)
 
 
-x=obj_spawnpoint.x
-y=obj_spawnpoint.y
+x = xstart;
+y = ystart;
 </string>
           </argument>
         </arguments>
@@ -453,8 +453,8 @@ y=obj_spawnpoint.y
 instance_create(x,y, obj_blood)
 instance_create(x,y, obj_blood)
 
-x=obj_spawnpoint.x
-y=obj_spawnpoint.y
+x = xstart;
+y = ystart;
 </string>
           </argument>
         </arguments>
