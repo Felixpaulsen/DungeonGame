@@ -83,9 +83,12 @@ if real(opened) == 0
           <argument>
             <kind>1</kind>
             <string>///Go to level
-var a = asset_get_index("rm_lev_"+string(level));
-a = room_get_name(a);
-room_goto(asset_get_index(a));
+if image_blend == c_white
+{
+    var a = asset_get_index("rm_lev_"+string(level));
+    a = room_get_name(a);
+    room_goto(asset_get_index(a));
+}
 </string>
           </argument>
         </arguments>

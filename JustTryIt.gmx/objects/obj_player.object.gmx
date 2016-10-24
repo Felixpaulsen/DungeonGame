@@ -480,9 +480,11 @@ y = ystart;
 if other.image_index == other.image_number-1
 {
 
-    var a = string_char_at(room_get_name(room),8);
+    var b = room_get_name(room);
+    var a = string_char_at(b,8);
+    var c = real(a)+1
     ini_open("level.ini");
-    ini_write_real("level "+string(a+1),"Finished:",true);
+    ini_write_real("level "+string(c),"Finished:",true);
     ini_close();   
 
     if room_exists(room_next(room))
