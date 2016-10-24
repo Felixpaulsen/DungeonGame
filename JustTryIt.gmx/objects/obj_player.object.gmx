@@ -479,6 +479,12 @@ y = ystart;
             <string>///Next level
 if other.image_index == other.image_number-1
 {
+
+    var a = string_char_at(room_get_name(room),8);
+    ini_open("level.ini");
+    ini_write_real("level "+string(a+1),"Finished:",true);
+    ini_close();   
+
     if room_exists(room_next(room))
         room_goto_next();
     else
