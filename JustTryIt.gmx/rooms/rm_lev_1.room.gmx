@@ -716,6 +716,7 @@ instance_create(x,y,obj_new_lightning);</code>
     <instance objName="obj_hidden_block" x="520" y="190" name="inst_4A37F5C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hidden_block" x="520" y="210" name="inst_EC9CABD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_key" x="410" y="210" name="inst_6D6D1D11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="430" y="370" name="inst_C372F76F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

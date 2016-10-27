@@ -37,6 +37,8 @@
     <sprite>sprites\spr_door</sprite>
     <sprite>sprites\spr_key</sprite>
     <sprite>sprites\spr_dirt</sprite>
+    <sprite>sprites\spr_enemy</sprite>
+    <sprite>sprites\spr_stop_enemy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -80,6 +82,8 @@
     <object>objects\obj_key</object>
     <object>objects\obj_draw_score</object>
     <object>objects\obj_intro</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_stop_enemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>
