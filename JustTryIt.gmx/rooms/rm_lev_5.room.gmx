@@ -598,7 +598,7 @@ instance_create(x,y,obj_new_lightning);</code>
     <instance objName="obj_block" x="600" y="60" name="inst_CD67CE28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="620" y="60" name="inst_68B40A8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_finish" x="760" y="340" name="inst_44CB9333" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spike" x="560" y="270" name="inst_90EDA07C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="obj_spike" x="560" y="260" name="inst_90EDA07C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="obj_spike" x="560" y="230" name="inst_1EAA4AB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="250" y="200" name="inst_4029C118" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="570" y="320" name="inst_78BA4773" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -658,6 +658,7 @@ instance_create(x,y,obj_new_lightning);</code>
     <instance objName="obj_key" x="260" y="300" name="inst_D41AA37E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="180" y="300" name="inst_251CB18A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="320" y="300" name="inst_91697E4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_brick_fall" x="700" y="160" name="inst_47FC02CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
