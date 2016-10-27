@@ -40,6 +40,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
+    <background>background\bg_intro</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -78,6 +79,7 @@
     <object>objects\obj_blood</object>
     <object>objects\obj_key</object>
     <object>objects\obj_draw_score</object>
+    <object>objects\obj_intro</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>
