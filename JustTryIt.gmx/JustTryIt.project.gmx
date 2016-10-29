@@ -6,39 +6,59 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_block</sprite>
-    <sprite>sprites\spr_hidden_block</sprite>
-    <sprite>sprites\spr_spike</sprite>
-    <sprite>sprites\spr_box</sprite>
-    <sprite>sprites\spr_finish</sprite>
-    <sprite>sprites\spr_brick</sprite>
-    <sprite>sprites\spr_ladder</sprite>
-    <sprite>sprites\spr_boss</sprite>
-    <sprite>sprites\spr_teleport</sprite>
-    <sprite>sprites\spr_bullet</sprite>
-    <sprites name="liv">
-      <sprite>sprites\spr_level_button</sprite>
+    <sprites name="Level environment">
+      <sprites name="Player">
+        <sprite>sprites\spr_player</sprite>
+      </sprites>
+      <sprites name="Solids">
+        <sprite>sprites\spr_stop_enemy</sprite>
+        <sprite>sprites\spr_dirt</sprite>
+        <sprite>sprites\spr_box</sprite>
+        <sprite>sprites\spr_block</sprite>
+        <sprite>sprites\spr_hidden_block</sprite>
+      </sprites>
+      <sprites name="Dangers">
+        <sprite>sprites\spr_enemy</sprite>
+        <sprite>sprites\spr_bullet</sprite>
+        <sprite>sprites\spr_boss</sprite>
+        <sprite>sprites\spr_brick</sprite>
+        <sprite>sprites\spr_spike</sprite>
+      </sprites>
+      <sprites name="Rewards">
+        <sprite>sprites\spr_coin</sprite>
+        <sprite>sprites\spr_key</sprite>
+        <sprite>sprites\spr_treasure</sprite>
+        <sprite>sprites\spr_door</sprite>
+        <sprite>sprites\spr_finish</sprite>
+        <sprite>sprites\spr_teleport</sprite>
+      </sprites>
+      <sprites name="Others">
+        <sprite>sprites\spr_ladder</sprite>
+        <sprite>sprites\spr_new_torch</sprite>
+      </sprites>
     </sprites>
-    <sprites name="Arrows">
-      <sprite>sprites\spr_jump</sprite>
-      <sprite>sprites\spr_left</sprite>
-      <sprite>sprites\spr_right</sprite>
-      <sprite>sprites\spr_refresh</sprite>
-      <sprite>sprites\spr_new_left</sprite>
-      <sprite>sprites\spr_new_jump</sprite>
-      <sprite>sprites\spr_new_right</sprite>
+    <sprites name="Engines">
+      <sprites name="Lightning engine">
+        <sprite>sprites\spr_light</sprite>
+      </sprites>
     </sprites>
-    <sprite>sprites\spr_new_torch</sprite>
-    <sprite>sprites\spr_treasure</sprite>
-    <sprite>sprites\spr_coin</sprite>
-    <sprite>sprites\spr_light</sprite>
-    <sprite>sprites\spr_blood</sprite>
-    <sprite>sprites\spr_door</sprite>
-    <sprite>sprites\spr_key</sprite>
-    <sprite>sprites\spr_dirt</sprite>
-    <sprite>sprites\spr_enemy</sprite>
-    <sprite>sprites\spr_stop_enemy</sprite>
+    <sprites name="GUI">
+      <sprites name="Controls">
+        <sprite>sprites\spr_jump</sprite>
+        <sprite>sprites\spr_left</sprite>
+        <sprite>sprites\spr_right</sprite>
+        <sprite>sprites\spr_refresh</sprite>
+        <sprite>sprites\spr_new_left</sprite>
+        <sprite>sprites\spr_new_jump</sprite>
+        <sprite>sprites\spr_new_right</sprite>
+      </sprites>
+      <sprites name="Start menu">
+        <sprite>sprites\spr_level_button</sprite>
+      </sprites>
+      <sprites name="Particles">
+        <sprite>sprites\spr_blood</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -52,48 +72,82 @@
     <font>fonts\fnt_coin</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_block</object>
-    <object>objects\obj_dirt</object>
-    <object>objects\obj_player</object>
-    <object>objects\obj_finish</object>
-    <object>objects\obj_android_controls</object>
-    <object>objects\obj_box</object>
-    <object>objects\obj_ladder</object>
-    <object>objects\obj_brick</object>
-    <object>objects\obj_brick_fall</object>
-    <object>objects\obj_spike</object>
-    <object>objects\obj_cheats</object>
-    <object>objects\obj_teleport</object>
-    <objects name="buttons">
-      <object>objects\obj_level_button</object>
-      <object>objects\obj_refresh</object>
+    <objects name="Level environment">
+      <objects name="Player">
+        <object>objects\obj_player</object>
+      </objects>
+      <objects name="Solids">
+        <object>objects\obj_hidden_block</object>
+        <object>objects\obj_stop_enemy</object>
+        <object>objects\obj_solid</object>
+        <object>objects\obj_box</object>
+        <object>objects\obj_dirt</object>
+        <object>objects\obj_block</object>
+      </objects>
+      <objects name="Dangers">
+        <object>objects\obj_enemy</object>
+        <object>objects\obj_bullet</object>
+        <object>objects\obj_boss</object>
+        <object>objects\obj_spike</object>
+        <object>objects\obj_brick</object>
+      </objects>
+      <objects name="Rewards">
+        <object>objects\obj_key</object>
+        <object>objects\obj_coin</object>
+        <object>objects\obj_treasure</object>
+        <object>objects\obj_finish</object>
+        <object>objects\obj_teleport</object>
+      </objects>
+      <objects name="Others">
+        <object>objects\obj_torch</object>
+        <object>objects\obj_ladder</object>
+      </objects>
     </objects>
-    <object>objects\obj_torch</object>
-    <object>objects\obj_boss</object>
-    <object>objects\obj_bullet</object>
-    <object>objects\obj_hidden_block</object>
-    <object>objects\obj_treasure</object>
-    <object>objects\obj_coin</object>
-    <object>objects\obj_coin_draw</object>
-    <object>objects\obj_new_lightning</object>
-    <object>objects\obj_light</object>
-    <object>objects\obj_spawn_bullet</object>
-    <object>objects\obj_blood</object>
-    <object>objects\obj_key</object>
-    <object>objects\obj_draw_score</object>
-    <object>objects\obj_intro</object>
-    <object>objects\obj_enemy</object>
-    <object>objects\obj_stop_enemy</object>
+    <objects name="Engines">
+      <objects name="Lightning engine">
+        <object>objects\obj_new_lightning</object>
+        <object>objects\obj_light</object>
+      </objects>
+    </objects>
+    <objects name="GUI">
+      <objects name="Controls">
+        <object>objects\obj_android_controls</object>
+      </objects>
+      <objects name="Start menu">
+        <object>objects\obj_level_button</object>
+      </objects>
+      <objects name="Draw">
+        <object>objects\obj_coin_draw</object>
+        <object>objects\obj_draw_score</object>
+      </objects>
+      <objects name="Intro">
+        <object>objects\obj_intro</object>
+      </objects>
+      <objects name="Particles">
+        <object>objects\obj_blood</object>
+      </objects>
+    </objects>
+    <objects name="Controllers">
+      <object>objects\obj_spawn_bullet</object>
+      <object>objects\obj_brick_fall</object>
+      <object>objects\obj_cheats</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_intro</room>
-    <room>rooms\rm_menu</room>
-    <room>rooms\rm_lev_1</room>
-    <room>rooms\rm_lev_2</room>
-    <room>rooms\rm_lev_3</room>
-    <room>rooms\rm_lev_4</room>
-    <room>rooms\rm_lev_5</room>
-    <room>rooms\rm_lev_6</room>
+    <rooms name="Intro">
+      <room>rooms\rm_intro</room>
+    </rooms>
+    <rooms name="Menus">
+      <room>rooms\rm_menu</room>
+    </rooms>
+    <rooms name="Levels">
+      <room>rooms\rm_lev_1</room>
+      <room>rooms\rm_lev_2</room>
+      <room>rooms\rm_lev_3</room>
+      <room>rooms\rm_lev_4</room>
+      <room>rooms\rm_lev_5</room>
+      <room>rooms\rm_lev_6</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

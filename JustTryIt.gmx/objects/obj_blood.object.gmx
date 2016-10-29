@@ -25,10 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-
-
-direction = random(360)
+            <string>direction = random(360)
 speed = 2
 gravity = 0.5
 alarm[0]= 120
@@ -54,7 +51,7 @@ alarm[0]= 120
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy()
+            <string>//instance_destroy()
 </string>
           </argument>
         </arguments>
