@@ -40,7 +40,7 @@ else
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_box">
+    <event eventtype="4" ename="obj_block">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -68,7 +68,7 @@ if vspeed&gt;0
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_block">
+    <event eventtype="4" ename="obj_box">
       <action>
         <libid>1</libid>
         <id>603</id>
