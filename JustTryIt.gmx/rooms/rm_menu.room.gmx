@@ -13,7 +13,7 @@
   <code>instance_create(x,y,obj_cheats);
 
 var llevel;
-var maxlevel = 6;
+var maxlevel = 7;
 for (llevel = 1; llevel &lt;= maxlevel; llevel+=1)
 {
     button = instance_create(64*((llevel-(7*floor((llevel-1)/7)))*1.5),64*ceil(llevel/7)*1.5,obj_level_button);

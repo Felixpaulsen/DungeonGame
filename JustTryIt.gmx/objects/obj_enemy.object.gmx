@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Initialize variables
 randomize();
-hspeed = random_range(obj_player.spd-.5,obj_player.spd+.5)*choose(1,-1);
+hspeed = random_range(obj_player.spd-0.5,obj_player.spd+0.5)*choose(1,-1);
 image_speed = 0.5;
 </string>
           </argument>
