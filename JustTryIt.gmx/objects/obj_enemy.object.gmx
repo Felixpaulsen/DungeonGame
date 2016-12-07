@@ -26,9 +26,17 @@
           <argument>
             <kind>1</kind>
             <string>///Initialize variables
-randomize();
-hspeed = random_range(obj_player.spd-0.5,obj_player.spd+0.5)*choose(1,-1);
-image_speed = 0.5;
+if room != rm_main_menu
+{
+    randomize();
+    hspeed = random_range(obj_player.spd-0.5,obj_player.spd+0.5)*choose(1,-1);
+    image_speed = 0.5;
+}
+else
+{
+    hspeed = 2;
+    image_speed = 0.5;
+}
 </string>
           </argument>
         </arguments>

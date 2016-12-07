@@ -70,6 +70,8 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_coin</font>
+    <font>fonts\fnt_main_title</font>
+    <font>fonts\fnt_main_select</font>
   </fonts>
   <objects name="objects">
     <objects name="Level environment">
@@ -132,12 +134,14 @@
       <object>objects\obj_brick_fall</object>
       <object>objects\obj_cheats</object>
     </objects>
+    <object>objects\obj_main_menu</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Intro">
       <room>rooms\rm_intro</room>
     </rooms>
     <rooms name="Menus">
+      <room>rooms\rm_main_menu</room>
       <room>rooms\rm_menu</room>
     </rooms>
     <rooms name="Levels">
