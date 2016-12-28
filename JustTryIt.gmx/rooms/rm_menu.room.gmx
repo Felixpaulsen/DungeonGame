@@ -36,7 +36,9 @@ if !file_exists("game_runned_multiple_times.ini")
     ini_open("game_runned_multiple_times.ini");
     ini_write_real("","",1);
     ini_close();
-}</code>
+}
+
+instance_create(x,y,obj_new_lightning);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
