@@ -135,6 +135,7 @@
       <object>objects\obj_cheats</object>
     </objects>
     <object>objects\obj_main_menu</object>
+    <object>objects\obj_back</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Intro">

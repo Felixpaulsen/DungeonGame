@@ -25,45 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Initialize variable
-
-level = 0;
-
-alarm[0]=2;
-
-image_alpha = 0.00001;
+            <string>image_alpha = 0.00001;
 
 col = c_gray;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>ini_open("level.ini");
-var opened = ini_read_real("level "+string(level),"Finished:",0);
-ini_close();
-
-if real(opened) == 0
-{
-    image_blend = c_gray;
-}
 </string>
           </argument>
         </arguments>
@@ -132,12 +96,8 @@ if real(opened) == 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Go to level
-if image_blend == c_white
-{
-    var a = asset_get_index("rm_lev_"+string(level));
-    a = room_get_name(a);
-    room_goto(asset_get_index(a));
+            <string>if (room == rm_menu) {
+    room_goto(rm_main_menu);
 }
 </string>
           </argument>
@@ -162,12 +122,14 @@ if image_blend == c_white
           <argument>
             <kind>1</kind>
             <string>///Draw level number
+image_xscale = 1.5;
+image_yscale = 0.75;
 draw_self();
 draw_set_color(col);
-draw_set_halign(fa_center);
+draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 draw_set_font(fnt_coin);
-draw_text(x,y,string(level));
+draw_text(x-32,y,"Back");
 </string>
           </argument>
         </arguments>
