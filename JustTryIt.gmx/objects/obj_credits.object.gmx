@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-999</depth>
+  <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,16 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Initialize variables
-size = 1;
-alarm[0] = 1;
-lightsize = 1;
+            <string>vspeed = -1;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -51,8 +48,11 @@ lightsize = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>lightsize = 4*size;
-lightstrength = 1;
+            <string>draw_set_font(fnt_coin);
+draw_set_halign(fa_center);
+draw_set_valign(fa_top);
+draw_set_color(c_white);
+draw_text(room_width/2,y,"Programmers:#Felix Baltazar Paulsen#Damiano Pedoni#####Graphics:#Damiano Pedoni#####Game Testers:#Nicolò#Tommaso");
 </string>
           </argument>
         </arguments>

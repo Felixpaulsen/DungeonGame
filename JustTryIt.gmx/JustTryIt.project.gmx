@@ -136,6 +136,7 @@
     </objects>
     <object>objects\obj_main_menu</object>
     <object>objects\obj_back</object>
+    <object>objects\obj_credits</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Intro">
@@ -144,6 +145,7 @@
     <rooms name="Menus">
       <room>rooms\rm_main_menu</room>
       <room>rooms\rm_menu</room>
+      <room>rooms\rm_credits</room>
     </rooms>
     <rooms name="Levels">
       <room>rooms\rm_lev_1</room>
