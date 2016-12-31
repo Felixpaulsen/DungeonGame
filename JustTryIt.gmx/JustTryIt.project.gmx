@@ -59,6 +59,7 @@
         <sprite>sprites\spr_blood</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_lock</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>

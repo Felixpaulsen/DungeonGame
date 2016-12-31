@@ -97,7 +97,7 @@ col = c_gray;
           <argument>
             <kind>1</kind>
             <string>if (room == rm_menu || room == rm_credits) {
-    room_goto(rm_main_menu);
+    room_goto(rm_main_menu); 
 }
 </string>
           </argument>

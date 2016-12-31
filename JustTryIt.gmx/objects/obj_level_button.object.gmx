@@ -34,6 +34,40 @@ alarm[0]=2;
 image_alpha = 0.00001;
 
 col = c_gray;
+
+alarm[1] = 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if file_exists("level.ini") {
+    ini_open("level.ini");
+    var value = ini_read_real("level "+string(level),"Finished:",0);
+    ini_close();
+}
+
+if (value == 1)
+    locked = false;
+else
+    locked = true;
 </string>
           </argument>
         </arguments>
@@ -167,7 +201,11 @@ draw_set_color(col);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_font(fnt_coin);
+if (locked == true) {
+    draw_set_color(c_dkgray); draw_set_alpha(0.5);
+}
 draw_text(x,y,string(level));
+draw_set_alpha(1);
 </string>
           </argument>
         </arguments>
