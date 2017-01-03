@@ -10,9 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>instance_create(x,y,obj_android_controls);
-
-instance_create(x,y,obj_new_lightning);</code>
+  <code>scr_level_creation();</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

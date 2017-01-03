@@ -10,9 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>instance_create(x,y,obj_android_controls);
-
-instance_create(x,y,obj_new_lightning);</code>
+  <code>scr_level_creation();</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -313,7 +311,6 @@ instance_create(x,y,obj_new_lightning);</code>
     <instance objName="obj_block" x="580" y="280" name="inst_DA812024" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="580" y="180" name="inst_9D269F42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="580" y="160" name="inst_64343B5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block" x="580" y="100" name="inst_C4D651A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="580" y="80" name="inst_E93B5466" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="580" y="60" name="inst_E2E56F57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="580" y="40" name="inst_98B362E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -571,6 +568,7 @@ instance_create(x,y,obj_new_lightning);</code>
     <instance objName="obj_ladder" x="120" y="360" name="inst_33C57CBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ladder" x="120" y="380" name="inst_07C30641" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ladder" x="120" y="400" name="inst_B5645078" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hidden_block" x="580" y="100" name="inst_3BAB544C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

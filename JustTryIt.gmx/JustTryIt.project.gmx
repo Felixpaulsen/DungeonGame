@@ -68,6 +68,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_push.gml</script>
+    <script>scripts\scr_level_creation.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_coin</font>
@@ -138,6 +139,7 @@
     <object>objects\obj_main_menu</object>
     <object>objects\obj_back</object>
     <object>objects\obj_credits</object>
+    <object>objects\obj_pause</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Intro">
