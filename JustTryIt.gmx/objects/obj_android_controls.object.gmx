@@ -64,7 +64,7 @@ jump = virtual_key_add(cx+500, cy,size,size,ord('W'))
 
 draw_set_color(c_white)
 
-draw_set_alpha(.4)
+draw_set_alpha(0.2)
 /*draw_rectangle(50,350,150,450,0)//left
 draw_rectangle(230,350,330,450,0)//right
 draw_rectangle(650,350,750,450,0)//jump  */
