@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-999</depth>
+  <depth>-1000</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,9 +25,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Create surface
-surf = surface_create(room_width,room_height);
-surfscale = 1;
+            <string>///Initialize variables
+yminus = 32*3;
+b1_xstart = 64+32;
+b1_xend = 64+32*5.5;
+b1_ystart = 64*3-yminus;
+b1_yend = 64*3+32+8-yminus;
+
+b2_xstart = 64+32;
+b2_xend = 64+32*5.5;
+b2_ystart = 64*4-yminus;
+b2_yend = 64*4+32+8-yminus;
+
+b3_xstart = 64+32;
+b3_xend = 64+32*5.5;
+b3_ystart = 64*5-yminus;
+b3_yend = 64*5+32+8-yminus;
 </string>
           </argument>
         </arguments>
@@ -50,8 +63,30 @@ surfscale = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (lightning == "off") {
-    instance_destroy();
+            <string>///Check mouse click
+if mouse_check_button_released(mb_left)
+{
+    if mouse_x &gt;= b1_xstart &amp;&amp; mouse_x &lt;= b1_xend &amp;&amp;
+    mouse_y &gt;= b1_ystart &amp;&amp; mouse_y &lt;= b1_yend
+    {
+        if (sound == "on") {
+            sound = "off";
+        }
+        else {
+            sound = "on";
+        }
+    }
+    else
+    if mouse_x &gt;= b2_xstart &amp;&amp; mouse_x &lt;= b2_xend &amp;&amp;
+    mouse_y &gt;= b2_ystart &amp;&amp; mouse_y &lt;= b2_yend
+    {
+        if (lightning == "on") {
+            lightning = "off";
+        }
+        else {
+            lightning = "on";
+        }
+    }
 }
 </string>
           </argument>
@@ -75,31 +110,13 @@ surfscale = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Draw surface
-if surface_exists(surf)
-{
-    surface_set_target(surf);
-    draw_clear(c_black);
-    
-    draw_set_blend_mode(bm_add);
-    
-    with(obj_light)
-    {
-        draw_sprite_ext(spr_light,0,x*other.surfscale,y*other.surfscale,lightsize*other.surfscale,lightsize*other.surfscale,0,c_orange,1); 
-    }
-    
-    surface_reset_target();
-    draw_set_blend_mode_ext(bm_dest_color, bm_inv_src_alpha)
-    draw_surface_ext(surf,0,0,1/surfscale,1/surfscale,0,c_white,0.7);
-    
-    draw_set_blend_mode(bm_normal);
-}
-else
-{
-    surf = surface_create(room_width,room_height);
-    surfscale = 1/8;
-}
-
+            <string>draw_set_color(c_white);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_set_font(fnt_main_select);
+draw_set_color(c_ltgray);
+draw_text(64+32,64*3-yminus,"Sound: "+sound);
+draw_text(64+32,64*4-yminus,"Lightning: "+lightning);
 </string>
           </argument>
         </arguments>

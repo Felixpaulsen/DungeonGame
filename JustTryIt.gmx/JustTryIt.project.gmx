@@ -140,6 +140,7 @@
     <object>objects\obj_main_menu</object>
     <object>objects\obj_back</object>
     <object>objects\obj_credits</object>
+    <object>objects\obj_options</object>
     <object>objects\obj_pause</object>
   </objects>
   <rooms name="rooms">
@@ -150,6 +151,7 @@
       <room>rooms\rm_main_menu</room>
       <room>rooms\rm_menu</room>
       <room>rooms\rm_credits</room>
+      <room>rooms\rm_options</room>
     </rooms>
     <rooms name="Levels">
       <room>rooms\rm_lev_1</room>

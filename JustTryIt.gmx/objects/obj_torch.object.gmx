@@ -50,8 +50,10 @@ alarm[0] = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var light = instance_create(x,y,obj_light);
-light.size = size;
+            <string>if (lightning == "on") {
+    var light = instance_create(x,y,obj_light);
+    light.size = size;
+}
 </string>
           </argument>
         </arguments>

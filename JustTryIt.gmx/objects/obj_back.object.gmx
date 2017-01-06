@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>image_alpha = 0.00001;
-
 col = c_gray;
 </string>
           </argument>
@@ -96,7 +95,7 @@ col = c_gray;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (room == rm_menu || room == rm_credits) {
+            <string>if (room == rm_menu || room == rm_credits || room == rm_options) {
     room_goto(rm_main_menu); 
 }
 </string>

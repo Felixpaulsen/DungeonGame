@@ -77,7 +77,7 @@ if mouse_check_button_released(mb_left)
     if mouse_x &gt;= b2_xstart &amp;&amp; mouse_x &lt;= b2_xend &amp;&amp;
     mouse_y &gt;= b2_ystart &amp;&amp; mouse_y &lt;= b2_yend
     {
-        show_message("Options");
+        room_goto(rm_options);
     }
     else
     if mouse_x &gt;= b3_xstart &amp;&amp; mouse_x &lt;= b3_xend &amp;&amp;

@@ -16,7 +16,12 @@ var file;
 var str = "Tempering with these files is at your own risk and might cause the game to stop working! If you do however screw up and are unable to run the game, you should delete ALL the files in this folder to completely start the game over, without any saved data.";
 file = file_text_open_write("README.txt");
 file_text_write_string(file,str);
-file_text_close(file);</code>
+file_text_close(file);
+
+globalvar sound;
+sound = "on";
+globalvar lightning;
+lightning = "on";</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
