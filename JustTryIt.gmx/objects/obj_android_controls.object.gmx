@@ -34,9 +34,10 @@ mx = 0
 my = 0
 cx = 150
 cy = 350
-left = virtual_key_add(cx-size, cy,size,size,ord('A'))
-right = virtual_key_add(cx+size, cy,size,size,ord('D'))
-jump = virtual_key_add(cx+500, cy,size,size,ord('W'))
+left = virtual_key_add(cx-size, cy,size,size,ord('A'));
+right = virtual_key_add(cx-size+150, cy,size,size,ord('D'));
+jump = virtual_key_add(cx+500, cy,size,size,ord('W'));
+down = virtual_key_add(cx+350, cy, size, size, ord('S'));
 
 </string>
           </argument>
@@ -70,9 +71,10 @@ draw_rectangle(230,350,330,450,0)//right
 draw_rectangle(650,350,750,450,0)//jump  */
 
 
-draw_sprite(spr_new_left, 0 , 100, 400)//left
-draw_sprite(spr_new_right, 0 , 280, 400)//right
-draw_sprite(spr_new_jump, 0 , 700, 400)//up
+draw_sprite(spr_new_left, 0 , 100, 400); //left
+draw_sprite(spr_new_right, 0 , 250, 400); //right
+draw_sprite(spr_new_jump, 0 , 700, 400); //up
+draw_sprite(spr_new_down, 0, 550, 400); //Down
 
 draw_set_alpha(1)
 </string>

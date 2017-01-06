@@ -50,6 +50,7 @@
         <sprite>sprites\spr_refresh</sprite>
         <sprite>sprites\spr_new_left</sprite>
         <sprite>sprites\spr_new_jump</sprite>
+        <sprite>sprites\spr_new_down</sprite>
         <sprite>sprites\spr_new_right</sprite>
       </sprites>
       <sprites name="Start menu">
