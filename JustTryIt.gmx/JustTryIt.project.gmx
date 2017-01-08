@@ -63,6 +63,7 @@
       </sprites>
     </sprites>
     <sprite>sprites\spr_lock</sprite>
+    <sprite>sprites\new_sprite_maybe</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -144,6 +145,7 @@
     <object>objects\obj_credits</object>
     <object>objects\obj_options</object>
     <object>objects\obj_pause</object>
+    <object>objects\obj_new_sprite_maybe</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Intro">
