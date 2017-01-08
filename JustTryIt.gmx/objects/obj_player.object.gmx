@@ -123,7 +123,7 @@ jump = maxjump
 if (up) &amp;&amp; (jump &gt; 0){
 jump -= 1
 vspeed = -8
-
+audio_play_sound(snd_jump, 1, false);
 }
     
     
